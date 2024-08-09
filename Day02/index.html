@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="\icon16.png" type="image/x-icon" />
+    <title>Bài 02: Các thẻ thông dụng html</title>
+    <style>
+      img {
+        display: block;
+        width: 100px;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid plum;
+        outline: none;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #371cd1;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: blue; text-decoration: underline">
+      Nội dung buổi 2:
+    </h1>
+    <h3>1. Chèn liên kết:</h3>
+    <p>
+      Tới github:
+      <a
+        href="https://github.com/Vinhdev04"
+        target="_blank"
+        title="Github: Phạm Công Vinh"
+        >Tại đây</a
+      >
+    </p>
+    <h3>2. File Paths (đường dẫn):</h3>
+    <p>Absolute</p>
+    <p>Relative</p>
+    <h3>3. Chèn audio:</h3>
+    <audio controls loop autoplay muted>
+      <source src="./Test_02-01.mp3" type="audio/mp3" />
+    </audio>
+    <h3>4. Chèn danh sách:</h3>
+    <h3>5. Class & Id:</h3>
+    <h3>6. Chèn ảnh:</h3>
+    <img src="/Day02/adminn.jpg" alt="Phạm Công Vinh" title="picture" />
+    <h3>7. Chèn video:</h3>
+    <video width="320px" height="240px" controls loop autoplay muted>
+      <source
+        src="./index.html - GuessPictures - Visual Studio Code 2024-08-08 22-35-47.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <h3>8. Chèn bảng:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Country</th>
+          <th>Language</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Phạm</td>
+          <td>Vinh</td>
+          <td>Việt Nam</td>
+          <td>Javascript</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Hoàng</td>
+          <td>Vinh</td>
+          <td>Việt Nam</td>
+          <td>PHP</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Trần</td>
+          <td>Mai</td>
+          <td>Việt Nam</td>
+          <td>Java</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="margin-top: 50px">
+      <thead>
+        <tr>
+          <th>Level1</th>
+          <th>Level2</th>
+          <th>Level3</th>
+          <th>Info</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="6">System</td>
+          <td rowspan="4">System App</td>
+          <td rowspan="3">SystemEnv</td>
+          <td>App Test</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Memory</td>
+          <td>foo</td>
+        </tr>
+        <tr></tr>
+        <tr>
+          <td>AppEnv2</td>
+          <td>App Test</td>
+          <td>har</td>
+        </tr>
+        <tr>
+          <td rowspan="2">System Memory</td>
+          <td rowspan="2">Memory Text</td>
+          <td>App Funic</td>
+          <td>foo</td>
+        </tr>
+        <tr>
+          <td>App Test</td>
+          <td>foo</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>9. Phân biệt khối inline & block:</h3>
+  </body>
+</html>
