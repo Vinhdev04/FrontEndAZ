@@ -23,6 +23,16 @@
       td {
         padding: 10px;
       }
+      .title {
+        color: red;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      #myId {
+        color: blue;
+        font-size: 24px;
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -47,7 +57,120 @@
       <source src="./Test_02-01.mp3" type="audio/mp3" />
     </audio>
     <h3>4. Chèn danh sách:</h3>
+    <ul style="background-color: orchid; color: #fff">
+      <li>Home</li>
+      <li>Cource</li>
+      <li>About</li>
+      <li>Service</li>
+      <li>Contact</li>
+    </ul>
+
+    <ol style="background-color: #371cd1; color: #fff">
+      <li>Mục 1</li>
+      <li>Mục 2</li>
+      <li>Mục 3</li>
+      <li>Mục 4</li>
+      <li>Mục 5</li>
+    </ol>
+
+    <ol type="A" style="background-color: green; color: #fff">
+      <li>ABC</li>
+      <li>XYZ</li>
+      <li>GHK</li>
+    </ol>
+
+    <ol type="a" style="background-color: yellow; color: #000">
+      <li>ABC</li>
+      <li>XYZ</li>
+      <li>GHK</li>
+    </ol>
+
+    <ol type="I" style="background-color: orange; color: #fff">
+      <li>ABC</li>
+      <li>XYZ</li>
+      <li>GHK</li>
+    </ol>
+
+    <ol type="i" style="background-color: orangered; color: #fff">
+      <li>ABC</li>
+      <li>XYZ</li>
+      <li>GHK</li>
+    </ol>
+    <ol type="I">
+      <li>
+        Item 1
+        <ol type="A">
+          <li>Item 1.1</li>
+          <li>Item 1.2</li>
+        </ol>
+      </li>
+      <li>
+        Item 2
+        <ol type="A">
+          <li>Item 2.1</li>
+          <li>Item 2.2</li>
+          <li>Item 2.3</li>
+          <li>
+            Item 2.4
+            <ol type="i">
+              <li>Item 2.4.1</li>
+              <li>Item 2.4.2</li>
+              <li>Item 2.4.3</li>
+              <li>Item 2.4.4</li>
+            </ol>
+          </li>
+          <li>
+            Item 2.5
+            <ol type="I">
+              <li>Item 2.5.1</li>
+              <li>Item 2.5.2</li>
+            </ol>
+          </li>
+          <li>Item 2.6</li>
+        </ol>
+      </li>
+      <li>
+        Item 3
+        <ol type="A">
+          <li>
+            Item 3.1
+            <ol type="A">
+              <li>Item 3.1.1</li>
+              <li>
+                Item 3.1.2
+                <ol type="I">
+                  <li>Item 3.1.2.1</li>
+                  <li>Item 3.1.2.2</li>
+                  <li>Item 3.1.2.3</li>
+                  <li>Item 3.1.2.3</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li>Item 3.2</li>
+          <li>Item 3.3</li>
+          <li>Item 3.4</li>
+          <li>Item 3.5</li>
+        </ol>
+      </li>
+      <li>
+        Item 4
+        <ol type="A">
+          <li>Item 4.1</li>
+          <li>Item 4.2</li>
+        </ol>
+      </li>
+      <li>
+        Item 5
+        <ol type="A">
+          <li>Item 5.1</li>
+          <li>Item 5.2</li>
+        </ol>
+      </li>
+    </ol>
     <h3>5. Class & Id:</h3>
+    <p class="title">Class</p>
+    <p id="myId">Id (duy nhất)</p>
     <h3>6. Chèn ảnh:</h3>
     <img src="/Day02/adminn.jpg" alt="Phạm Công Vinh" title="picture" />
     <h3>7. Chèn video:</h3>
@@ -132,7 +255,206 @@
         </tr>
       </tbody>
     </table>
-
+    <table style="margin-top: 50px">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Country</th>
+          <th>Language</th>
+          <th>Skill</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="6">FPT Software</td>
+          <td rowspan="4">Vinh</td>
+          <td rowspan="3">VN</td>
+          <td>Html</td>
+          <td>Css</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Js</td>
+        </tr>
+        <tr>
+          <td>php</td>
+          <td>sql</td>
+        </tr>
+        <tr>
+          <td>VN</td>
+          <td>DATABASE</td>
+          <td>LOCAL</td>
+        </tr>
+        <tr>
+          <td rowspan="2">MANH</td>
+          <td rowspan="2">VN</td>
+          <td>PYTHON</td>
+          <td>ANGULAR</td>
+        </tr>
+        <tr>
+          <td>REACT</td>
+          <td>Java</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="margin-top: 50px">
+      <thead>
+        <tr>
+          <td>Level 1</td>
+          <td>Level 2</td>
+          <td>Level 3</td>
+          <td>Level 4</td>
+          <td>Level 5</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="6" style="background-color: #371cd1; color: #fff">
+            Hàng 1 cột 1
+          </td>
+          <td rowspan="4" style="background-color: aquamarine">Hàng 1 cột 2</td>
+          <td rowspan="3" style="background-color: blueviolet; color: #fff">
+            Hàng 1 cột 3
+          </td>
+          <td>Hàng 1 cột 4</td>
+          <td>Hàng 1 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 2 cột 4</td>
+          <td>Hàng 2 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 3 cột 4</td>
+          <td>Hàng 3 cột 5</td>
+        </tr>
+        <tr>
+          <td rowspan="2" style="background-color: olivedrab">Hàng 4 cột 3</td>
+          <td>Hàng 4 cột 4</td>
+          <td>Hàng 4 cột 5</td>
+        </tr>
+        <tr>
+          <td rowspan="2" style="background-color: orange; color: #fff">
+            Hàng 5 cột 3
+          </td>
+          <td>Hàng 5 cột 4</td>
+          <td>Hàng 5 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 6 cột 3</td>
+          <td>Hàng 6 cột 4</td>
+          <td>Hàng 6 cột 5</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="margin-top: 50px">
+      <thead></thead>
+      <tbody>
+        <tr>
+          <td rowspan="11" style="background-color: #371cd1; color: #fff">
+            Hàng 1 cột 1
+          </td>
+          <td>Hàng 1 cột 2</td>
+          <td colspan="3" style="background-color: pink">Hàng 1 cột 3</td>
+        </tr>
+        <tr>
+          <td>Hàng 2 cột 2</td>
+          <td colspan="3" style="background-color: palegoldenrod">
+            Hàng 2 cột 3
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" style="background-color: aqua">Hàng 3 cột 2</td>
+          <!-- <td>Hàng 3 cột 3</td>
+          <td>Hàng 3 cột 4</td>
+          <td>Hàng 3 cột 5</td> -->
+        </tr>
+        <tr>
+          <td>Hàng 4 cột 2</td>
+          <td colspan="3" style="background-color: magenta">Hàng 4 cột 3</td>
+        </tr>
+        <tr>
+          <td>Hàng 5 cột 2</td>
+          <td colspan="3" style="background-color: navajowhite">
+            Hàng 5 cột 3
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4" style="background-color: blueviolet">Hàng 6 cột 2</td>
+          <!-- <td>Hàng 6 cột 3</td>
+          <td>Hàng 6 cột 4</td>
+          <td>Hàng 6 cột 5</td> -->
+        </tr>
+        <tr>
+          <td>Hàng 7 cột 2</td>
+          <td>Hàng 7 cột 3</td>
+          <td>Hàng 7 cột 4</td>
+          <td>Hàng 7 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 8 cột 2</td>
+          <td>Hàng 8 cột 3</td>
+          <td>Hàng 8 cột 4</td>
+          <td>Hàng 8 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 9 cột 2</td>
+          <td>Hàng 9 cột 3</td>
+          <td>Hàng 9 cột 4</td>
+          <td>Hàng 9 cột 5</td>
+        </tr>
+        <tr>
+          <td>Hàng 10 cột 2</td>
+          <td>Hàng 10 cột 3</td>
+          <td>Hàng 10 cột 4</td>
+          <td>Hàng 10 cột 5</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="background-color: chartreuse">
+            Hàng 11 cột 2
+          </td>
+          <!-- <td>Hàng 11 cột 3</td>
+          <td>Hàng 11 cột 4</td> -->
+          <td>Hàng 11 cột 5</td>
+        </tr>
+      </tbody>
+    </table>
     <h3>9. Phân biệt khối inline & block:</h3>
+    <p style="background-color: red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minima sed
+      exercitationem rerum magnam doloremque eius autem corrupti asperiores odit
+      laudantium mollitia dolorum consequuntur hic inventore ipsam, quibusdam
+      velit totam. A quo tempora, vero repudiandae veritatis nam obcaecati vitae
+      sunt? Praesentium sunt quibusdam magni commodi nam debitis, est corporis.
+      Accusamus vel quia vitae nisi officiis? Perferendis distinctio sunt quod
+      ratione? Alias obcaecati id soluta libero? Cumque, mollitia excepturi?
+      Amet explicabo numquam vero veritatis dicta velit laboriosam dolore. Alias
+      vitae cum accusantium dolorem? Et eos tempora assumenda id non error sunt.
+      Atque delectus impedit blanditiis unde suscipit soluta, nisi quo adipisci
+      nostrum perferendis ratione cupiditate fuga. Quam cupiditate omnis alias
+      iste distinctio sapiente. Nulla ipsa quos omnis officia saepe ut aliquam!
+      Velit ex veniam explicabo necessitatibus iure ullam, dicta modi, eligendi
+      iusto obcaecati, exercitationem eum quidem. Dicta laboriosam, incidunt
+      porro sunt, ab debitis atque delectus, fugit voluptatem aliquam dolorum
+      veritatis veniam.
+    </p>
+    <span style="background-color: #371cd1"
+      >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus
+      deserunt quod corrupti vitae possimus deleniti tempore sequi facilis
+      aliquam laborum reprehenderit labore maxime saepe obcaecati, commodi
+      voluptate ab! Aspernatur, voluptas. Odio, quia. Magnam recusandae
+      assumenda consectetur dolor dicta nihil consequuntur at vitae cumque,
+      corporis commodi ab culpa doloremque quidem dolorem optio officia a
+      provident. In ipsum iusto nemo obcaecati delectus. Facilis a corrupti
+      accusamus autem? Pariatur amet atque eveniet vitae odit fugiat vel fuga
+      beatae officia perspiciatis velit dolores minus sint id numquam voluptates
+      explicabo, modi quaerat quidem consectetur et? Tempora quo placeat sunt
+      pariatur vitae deleniti quod quidem, ut accusamus nostrum quibusdam nisi
+      quia culpa ad! Expedita aperiam perspiciatis enim commodi culpa
+      necessitatibus laboriosam non nihil cumque, dolore molestias. Magni
+      eligendi error, illum ut explicabo quis suscipit quam eos rem. Omnis
+      reiciendis laborum id voluptatibus blanditiis eum ipsam, reprehenderit
+      dolorem, tempora error praesentium iste a illum amet facilis beatae.</span
+    >
   </body>
 </html>
