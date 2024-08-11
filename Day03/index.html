@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="\icon16.png" type="image/x-icon" />
+    <title>Ôn tập file,input,semantic,form,data</title>
+    <style>
+      label {
+        display: block;
+      }
+      input {
+        display: block;
+        margin-bottom: 15px;
+      }
+      button {
+        margin-top: 15px;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        border-radius: 14px;
+        font-size: 14px;
+        background: green;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      button:hover {
+        opacity: 0.8;
+      }
+      textarea {
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" target="_blank" method="post" autocomplete="on" novalidate>
+      <label for="Username"
+        >Username:
+        <input type="text" id="Username" name="username" />
+      </label>
+      <label for="password"
+        >Password:
+        <input type="password" id="password" name="password" />
+      </label>
+      <label for="passwordCF"
+        >Confirm Password:
+        <input type="password" id="passwordCF" required name="passwordCF" />
+      </label>
+      <label for="email"
+        >Email:
+        <input type="email" id="email" required name="email" />
+      </label>
+      <label for="color">Color:</label>
+      <select name="user_color" id="color" size="1" multiple>
+        <option value="red">Red</option>
+        <option value="green" selected>Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <br /><br />
+      <label for="text_info">Text:</label>
+      <textarea name="text_feed" id="text_info" rows="3" cols="10"></textarea
+      ><br />
+      <input type="text" name="input_data" />
+      <input type="email" name="input_mail" />
+      <input type="password" name="input_password" />
+      <label for="time">Time:</label>
+      <input type="date" id="time" name="input_date" />
+      <label for="dateTime">Date Time:</label>
+      <input type="datetime" name="" id="dateTime" name="input_date_time" />
+      <label for="local">Local Time:</label>
+      <input type="datetime-local" name="" id="local" name="input_local" />
+      <label for="check">Check:</label>
+      <input type="checkbox" name="check" id="" name="input_check" />
+      <label for="color">Color:</label>
+      <input type="color" name="" id="color" name="input_color" />
+      <label for="radio">Radio:</label>
+      <input type="radio" name="" id="radio" name="input_radio" />
+      <label for="reset">Reset:</label>
+      <input type="reset" value="Reset" name="input_reset" />
+      <label for="range">Range:</label>
+      <input type="range" name="" id="range" name="input_range" />
+      <label for="file">File:</label>
+      <input type="file" name="" id="file" name="input_file" />
+      <label for="tiem">Time:</label>
+      <input type="time" name="" id="time" name="input_time" />
+      <div>
+        <fieldset>
+          <p>Ngôn ngữ yêu thích:</p>
+          <!-- <fieldset>Ngôn ngữ yêu thích:</fieldset> -->
+          <input type="checkbox" name="language" id="php" value="PHP" />
+          <label for="php">PHP</label>
+          <input type="checkbox" name="language" id="js" value="JAVASCRIPT" />
+          <label for="js">Js</label>
+          <input type="checkbox" name="language" id="python" value="PYTHON" />
+          <label for="python">Python</label>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <p>Ngôn ngữ không thích:</p>
+          <!-- <fieldset>Ngôn ngữ yêu thích:</fieldset> -->
+          <input type="radio" name="language" id="php" value="PHP" />
+          <label for="php">PHP</label>
+          <input type="radio" name="language" id="js" value="JAVASCRIPT" />
+          <label for="js">Js</label>
+          <input type="radio" name="language" id="python" value="PYTHON" />
+          <label for="python">Python</label>
+        </fieldset>
+      </div>
+      <br />
+      <label for="info">ReadOnly:</label>
+      <input type="text" value="0123456" id="info" readonly maxlength="12" />
+      <label for="info">Disable(not send):</label>
+      <input type="text" value="0123456" id="info" disabled />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
