@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="\icon16.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bài tập buổi 3</title>
+  </head>
+  <body>
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký tài khoản </b>như bên dưới</p>
+    <label for="Username"
+      >Họ tên:
+      <input
+        type="text"
+        placeholder="Ví dụ: phamcongvinh"
+        required
+        name="username"
+        id="Username"
+      />
+    </label>
+    <label for="Email"
+      >Email:
+      <input
+        type="email"
+        placeholder="Ví dụ: pcv.fed@gmail.com"
+        required
+        id="Email"
+        name="mail"
+      />
+    </label>
+    <label for="Password">
+      Password:
+      <input type="password" id="Password" required name="password" />
+    </label>
+    <button type="submit" class="sign__in">Đăng ký</button>
+    <h2>Câu 2: Tạo form đăng ký chi tiết</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký chi tiết </b> như bên dưới</p>
+    <label for="Username"
+      >Username:
+      <input type="text" name="username" id="Username" required />
+    </label>
+    <label for="mail"
+      >Email:
+      <input type="mail" name="Email" id="maill" />
+    </label>
+    <label for="pass"
+      >Password:
+      <input type="password" name="password" id="pass" />
+    </label>
+    <label for="pass2"
+      >Confirm password:
+      <input type="password" name="password" id="pass2" />
+    </label>
+    <label for="">Giới Tính:</label><br />
+    <input type="radio" name="gender" id="" value="male" />
+    <label for="">Male</label><br />
+    <input type="radio" name="gender" id="" value="female" />
+    <label for="">Female</label><br />
+    <input type="radio" name="gender" id="" value="other" />
+    <label for="">Other</label><br />
+    <label for="">Nation:</label>
+
+    <select name="nation" id="nation">
+      <option value="vietnam">VietNamese</option>
+      <option value="china">China</option>
+      <option value="japan" selected>Japanese</option></select
+    ><br />
+    <button type="submit" class="sign__in" style="margin-top: 30px">
+      Đăng ký
+    </button>
+    <h2>Câu 3: Tọa form đánh giá sản phẩm</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đánh giá sản phẩm</b>như sau</p>
+    <label for="box"
+      >Tên sản phẩm:
+      <input type="text" value="product" id="box" />
+    </label>
+    <label for="feeback">Feedback: </label><br />
+    <input type="radio" name="" id="" />
+    <label for="">5 sao</label><br />
+    <input type="radio" name="" id="" />
+    <label for="">4 sao</label><br />
+    <input type="radio" name="" id="" />
+    <label for="">3 sao</label><br />
+    <input type="radio" name="" id="" />
+    <label for="">2 sao</label><br />
+    <input type="radio" name="" id="" />
+    <label for="">1 sao</label><br />
+    <label for="message">Comment: </label><br />
+    <textarea name="message" id="message" rows="6"></textarea><br />
+    <button type="submit" class="sign__in" style="margin-top: 20px">
+      Send
+    </button>
+    <h2>Câu 4: Tạo form liên hệ:</h2>
+    <p><b>Yêu cầu:</b>Tạo form <b>Liên hệ </b>như sau</p>
+    <label for="fullName">Họ và Tên:</label>
+    <input type="text" id="fullName" name="username" />
+    <label for="email">Email:</label>
+    <input type="email" name="mail" id="email" />
+    <label for="checkIn">Check In:</label>
+    <input type="date" name="" id="" />
+    <label for="checkOut">CheckOut:</label>
+    <input type="date" name="" id="" />
+    <label for="rooms" style="margin: 10px 0">Loại phòng</label><br />
+    <select name="room" id="rooms">
+      <option value="room_01" id="rooms">Phòng thường</option>
+      <option value="room_02" id="rooms" selected>Phòng Trung bình</option>
+      <option value="room_03" id="rooms">Phòng Vip</option></select
+    ><br />
+    <label for="messages" style="margin: 10px 0">Yêu cầu:</label><br />
+    <textarea
+      name=""
+      id="messages"
+      rows="10"
+      style="margin-top: 10px"
+    ></textarea
+    ><br />
+    <button type="submit" class="sign__in">Đặt phòng</button>
+    <h2>Câu 6: Tạo form tìm kiếm</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Tìm kiếm</b>như bên dưới</p>
+    <input
+      type="search"
+      name="search"
+      id=""
+      class="search"
+      style="display: inline; margin-right: 5px"
+    />
+    <button type="submit" style="padding: 5px 5px">Search</button>
+  </body>
+</html>

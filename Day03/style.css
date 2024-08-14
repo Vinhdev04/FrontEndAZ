@@ -1,0 +1,62 @@
+input {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 200px;
+  height: 30px;
+}
+label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button.sign__in {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: blue;
+  cursor: pointer;
+}
+
+button.sign__in:hover {
+  opacity: 0.7;
+}
+
+input[type="radio"] {
+  display: inline;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+select {
+  padding: 10px 10px;
+}
+
+option:active {
+  background-color: orange;
+}
