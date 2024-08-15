@@ -1,0 +1,59 @@
+/* Css External */
+h1 {
+  color: aquamarine;
+}
+
+.desc__first {
+  color: green;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.desc__second {
+  color: pink;
+  font-size: 18px;
+  text-decoration: overline;
+}
+
+p {
+  text-align: justify;
+  word-spacing: 2px;
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.media {
+  /* background-image: url("image/earth.jpg"), url("image/img.jpg"); */
+  background-image: url("image/earth.jpg");
+  background-size: 100% auto;
+  background-size: cover;
+  background-size: contain;
+  width: 1200px;
+  height: 700px;
+  border: 5px solid palevioletred;
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-position: top left;
+  background-position: bottom right;
+  background-position: bottom left;
+  background-position: center center;
+  background-attachment: fixed;
+  background-attachment: local;
+  background-attachment: scroll;
+}
