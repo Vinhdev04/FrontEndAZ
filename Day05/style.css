@@ -1,0 +1,52 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.box {
+  height: 100px;
+  padding: 50px;
+  background-color: lightcoral;
+  color: #fff;
+  border: 10px solid #ccc;
+  /* box-sizing: content-box; */
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: circle;
+  list-style-type: decimal;
+  list-style-type: decimal-leading-zero;
+  list-style-type: disc;
+  list-style-type: georgian;
+  list-style-type: lower-alpha;
+  list-style-type: lower-greek;
+  list-style-type: lower-latin;
+  list-style-type: lower-roman;
+  list-style-type: none;
+  list-style-type: square;
+  list-style-type: upper-alpha;
+  list-style-type: inherit;
+  list-style-position: outside;
+  list-style-position: inside;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+  background-color: rgb(17, 172, 81);
+  color: #fff;
+  font-weight: bold;
+}
