@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/icon16.png" type="image/x-icon" />
+    <title>Pseudo-element Selector</title>
+    <style>
+      .title {
+        text-decoration: underline;
+        color: blue;
+        font-weight: bold;
+        font-size: 24px;
+        cursor: pointer;
+      }
+
+      .box {
+        font-weight: bold;
+      }
+
+      /* ::before */
+      .box::before {
+        /* display: block; */
+        content: "Insert Before";
+        color: red;
+        margin-right: 2px;
+      }
+
+      .box::after {
+        margin-left: 2px;
+        content: "Insert After";
+        color: green;
+      }
+
+      .sub {
+        position: relative;
+        margin-right: 20px;
+      }
+
+      .sub::before {
+        display: block;
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 50px;
+        border-radius: 10px;
+      }
+
+      .container {
+        width: 30px;
+        height: 30px;
+        border: 2px solid #000;
+        border-radius: 4px;
+        position: relative;
+      }
+
+      .container::after {
+        display: block;
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: green;
+        border: 4px solid transparent transparent transparent transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+
+      /* ::first-letter -> tác động css vào chữ cái đầu tiên*/
+      p::first-letter {
+        color: red;
+        font-size: 48px;
+      }
+
+      /* ::first-line -> tác động css vào dòng đầu tiên*/
+      p::first-line {
+        color: purple;
+      }
+
+      /* ::marker -> dánh dấu các mục ul , li */
+      li::marker {
+        padding: 5px;
+        color: blue;
+      }
+
+      /* ::selection -> bôi đen*/
+      .desc::selection {
+        background-color: aquamarine;
+        color: red;
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title" title="pseudo-element">Pseudo-element Selector</h1>
+    <span></span>
+    <div class="box">Test case 1</div>
+    <p class="sub">Agree</p>
+    <div class="container"></div>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem eligendi
+      vel, distinctio blanditiis sapiente aperiam nemo in nostrum doloribus
+      accusantium!
+    </p>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <p class="desc">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati,
+      fugiat dolor accusantium sequi doloribus esse dignissimos veniam culpa
+      provident quis omnis dicta molestiae accusamus qui consequuntur. Nemo ut
+      saepe necessitatibus?
+    </p>
+  </body>
+</html>

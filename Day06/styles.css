@@ -1,0 +1,70 @@
+/*  Sử dụng cho element khi hover vào*/
+h1:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+/* :visited */
+a {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*  Sử dụng cho thẻ a khi chưa click vào liên kết*/
+a:link {
+  color: orangered;
+}
+
+/*  Sử dụng cho thẻ a khi đã click vào liên kết*/
+a:visited {
+  color: blue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: aquamarine;
+  display: grid;
+  place-items: center;
+  color: #d81313;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* áp dụng khi element được click */
+.box:active {
+  transform: scale(1.1);
+  background-color: yellow;
+}
+
+li {
+  padding: 5px;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Css cho element đầu tiên */
+li:first-child {
+  color: #d81313;
+}
+
+/* Css cho element cuối cùng */
+li:last-child {
+  color: blueviolet;
+}
+
+/* Css cho element tại vị trí chỉ định: (odd,oven,.....) */
+li:nth-child(2) {
+  color: goldenrod;
+}
+
+/* (an + b) */
+li:nth-child(2n + 1) {
+  text-decoration: line-through;
+}
