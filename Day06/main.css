@@ -1,0 +1,33 @@
+.title a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Chọn các element cùng cấp liền kề ngay sau  */
+div + p {
+  color: aqua;
+}
+
+/* Chọn các element là con trực tiếp (cấp 1)  */
+div > p {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Chọn các element cùng cấp và phải nằm sau element gốc */
+div ~ p {
+  color: gold;
+  font-size: 20px;
+}
+
+/* Chọn tất cả các element bên trong element gốc */
+ul li {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  text-decoration: line-through;
+}
