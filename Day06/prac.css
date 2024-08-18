@@ -1,0 +1,187 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+table,
+td,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+
+td {
+  border-bottom: 1px solid #f0ecec;
+}
+
+th {
+  background-color: rgb(17, 141, 38);
+  color: #fff;
+  padding: 10px;
+}
+
+.list__item {
+  background-color: #f0ecec;
+  padding: 2px;
+  border-radius: 10px;
+  list-style: none;
+  cursor: pointer;
+  width: 250px;
+  overflow: hidden;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.list__item li:hover {
+  background-color: rgb(8, 153, 51);
+  color: #fff;
+}
+
+.list__icon {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.list__icon li {
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+  background-color: antiquewhite;
+  transition: 0.5s;
+}
+
+.list__icon li:hover {
+  animation: rotate 0.5s linear infinite;
+  background-color: rgb(10, 186, 90);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+.nav__bar {
+  background-color: aquamarine;
+  width: 700px;
+  position: fixed;
+  top: 10px;
+}
+
+.nav__bar-list {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  align-items: center;
+}
+
+.nav__bar-list li {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.nav__bar-list li:hover {
+  opacity: 0.7;
+}
+
+.content {
+  width: 1200px;
+  height: 1800px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.box1 {
+  background-color: lawngreen;
+}
+
+.box2 {
+  background-color: burlywood;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box3 {
+  background-color: mediumorchid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.box4 {
+  background-color: olivedrab;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.box5 {
+  background-color: olivedrab;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact__btn {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.icon__message {
+  background-color: blue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icon__message:hover {
+  background-color: rgb(8, 153, 51);
+}
