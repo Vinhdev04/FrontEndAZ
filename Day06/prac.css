@@ -185,3 +185,53 @@ li {
 .icon__message:hover {
   background-color: rgb(8, 153, 51);
 }
+
+.contents {
+  background-color: blue;
+  border-radius: 10px;
+  padding: 80px 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner__content {
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px 3px;
+  z-index: 1;
+}
+
+.inner__content::first-letter {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.inner__content::first-line {
+  text-transform: uppercase;
+}
+
+.contents::before {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #807f7f54;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.contents::after {
+  display: block;
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #807f7f54;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

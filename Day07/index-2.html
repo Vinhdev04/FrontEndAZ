@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/icon16.png" type="image/x-icon" />
+    <style>
+      /* Chọn các attribute có chứa đầy đủ thuộc tính */
+      a[target="_blank"] {
+        background-color: blue;
+        color: #fff;
+        padding: 5px;
+      }
+
+      a[title="Youtube"] {
+        background-color: yellow;
+        color: #000;
+      }
+
+      /* Chọn các attribute có chứa  thuộc tính và value phải là từ khóa duy nhất */
+      a[title~="Lite"] {
+        background-color: aqua;
+        color: #000;
+      }
+
+      /* Chọn các attribute có chứa  thuộc tính phải là từ khóa duy nhất  đứng độc lập hoặc nếu là nhiều từ nối phải đi kèm sau dấu "-" cảu class*/
+      p[class|="title"] {
+        background: greenyellow;
+        padding: 5px;
+      }
+
+      /* Chọn tất cả phần tử có chứa các attribute có bắt đầu bằng value */
+      a[title^="Hutech"] {
+        font-size: 20px;
+        background-color: red;
+        color: #fff;
+        padding: 10px;
+      }
+
+      /* Chọn tất cả các phân tử có chứa các attribute có kết thúc bằng value */
+      a[href$=".link/"] {
+        background: pink;
+        font-size: 20px;
+      }
+
+      /* Chọn tất cả các phân tử có chứa các attribute có chứa value ko cần nguyên vẹn  */
+      a[title*="Cakhiatv"] {
+        color: gray;
+        font-size: 20px;
+      }
+    </style>
+    <title>Day 07</title>
+  </head>
+  <body>
+    <h2>2. Attribute Selector</h2>
+    <div class="content">
+      <a href="https://www.youtube.com/" title="Youtube" target="">Youtube</a>
+      <a href="https://www.facebook.com/" title="Facebook Lite" target="_blank"
+        >Facebook</a
+      >
+      <a href="https://www.google.com/" title="Google" target="_blank"
+        >Google</a
+      >
+    </div>
+    <div class="info">
+      <p class="title title__sub">Lorem ipsum dolor sit amet.</p>
+      <p class="title- title__sub">Lorem ipsum dolor sit amet.</p>
+      <p class="title-x title__sub">Lorem ipsum dolor sit amet.</p>
+      <p class="title-title__sub">Lorem ipsum dolor sit amet.</p>
+      <p class="title title__sub">Lorem ipsum dolor sit amet.</p>
+      <p class="title">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="content__media">
+      <a href="https://azota.vn/de-thi/kl7za5" target="_blank" title="Azota"
+        >Global</a
+      >
+      <a href="https://lms.hutech.edu.vn/" target="" title="Hutech LMS"
+        >Local</a
+      >
+      <a href="https://cakhiaz.link/" target="_self" title="Cakhiatv">Public</a>
+    </div>
+  </body>
+</html>
