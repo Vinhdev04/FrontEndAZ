@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/icon16.png" type="image/x-icon" />
+    <title>Day 07</title>
+    <style>
+      /* Tính độ ưu tiên dựa trên số lượng phần tử Elements theo công thức sau: 
+            Inline - ID - Class,Pseudo-class,Attributes - Element, Pseudo-Element 
+     */
+
+      /* 0 0 0 1  -> 1*/
+      h2 {
+        color: red;
+      }
+
+      /* 0 0 1 1  -> 11*/
+      h2.title {
+        color: blue;
+      }
+
+      /* 0 0 1 2  -> 12*/
+      div h2.title {
+        color: orange;
+      }
+
+      /* 0 0 2 1  -> 21*/
+      .head h2.title {
+        color: green;
+      }
+
+      /* 0 0 2 2  -> 22*/
+      div.head h2.title {
+        color: gray;
+      }
+
+      /* 0 0 3 2  -> 32*/
+      div.head h2.title:last-child {
+        color: yellow;
+      }
+
+      /* 0 1 2 2  -> 122 */
+      #main div.head h2.title {
+        color: pink;
+      }
+
+      /* 0 2 1 2  -> 212*/
+      #main div#head h2.title {
+        color: purple;
+      }
+
+      /* 0 2 1 3  -> 213*/
+      #main div#head h2.title::first-letter {
+        color: red;
+      }
+
+      /* 0 2 0 3 -> 203*/
+      #main div#head h2::first-letter {
+        color: yellow !important;
+      }
+
+      /* function attr() -> trả về giá trị của 1 thuộc tính */
+      /* data-text là 1 tên gọi tùy ý đặt và tuân thủ quy tắc */
+      [data-text]::before {
+        /* Nội dung content được định nghĩa trong thuộc tính data-text */
+        content: attr(data-text);
+        color: red;
+        font-size: 20px;
+      }
+
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        padding: 30px;
+        border: 5px solid #000;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>4. Độ ưu tiên trong Css</h1>
+    <main id="main">
+      <div class="head" id="head">
+        <h2 class="title">Tiêu đề 1</h2>
+        <h2 class="title">Tiêu đề 2</h2>
+      </div>
+    </main>
+    <div class="content">
+      <span data-text="Hi! ">Phạm Công Vinh</span>
+    </div>
+    <div class="box">box</div>
+  </body>
+</html>
