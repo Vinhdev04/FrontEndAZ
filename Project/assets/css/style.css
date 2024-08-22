@@ -1,0 +1,87 @@
+/* Header */
+.header {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-heading {
+  background-color: var(--color-first);
+  color: var(--color-second);
+  padding: 1rem;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.header-main .inner-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-main .inner-logo img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.header-main .inner-logo span {
+  color: var(--color-first);
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.inner-logo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.inner-menu ul {
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.inner-menu ul li {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.inner-menu ul li a {
+  font-size: 1.8rem;
+  color: var(--color-first);
+  transition: 0.5s all ease;
+}
+
+.inner-contact {
+  font-size: 1.8rem;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+}
+
+.inner-socials ul {
+  display: flex;
+  align-items: center;
+}
+
+.inner-socials ul li {
+  margin-left: 16px;
+  transition: 0.5s;
+}
+
+.inner-socials ul li a {
+  font-size: 2.6rem;
+  color: var(--color-first);
+}
+
+.inner-menu ul li a:hover {
+  display: block;
+  color: #17a2b8;
+  background: transparent;
+}
+
+.inner-socials ul li:hover {
+  opacity: 0.7;
+}
