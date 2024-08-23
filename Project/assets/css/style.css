@@ -296,8 +296,8 @@ a.btn-shop:hover {
 
 /* Section 03 */
 .section-three {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #f0f2f5;
 }
 
@@ -357,4 +357,9 @@ a.btn-shop:hover {
   margin-top: 20px;
   max-width: 250px;
   text-align: center;
+}
+
+/* Section 04 */
+.section-four {
+  padding-top: 50rem;
 }
