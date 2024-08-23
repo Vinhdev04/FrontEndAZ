@@ -361,5 +361,54 @@ a.btn-shop:hover {
 
 /* Section 04 */
 .section-four {
-  padding-top: 50rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.box-left {
+  text-align: left;
+}
+
+.box-right {
+  width: 50%;
+}
+
+.section-four .content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-box .box-left .title {
+  font-size: 6rem;
+  color: var(--color-first);
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.content-box .box-left .desc {
+  font-size: 3rem;
+  margin: 30px 0;
+  line-height: 1.5;
+  color: var(--color-text);
+  font-weight: normal;
+}
+
+.btn-about {
+  background-color: var(--color-second);
+  padding: 16px 50px;
+  font-weight: bold;
+}
+
+.box-right {
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+.box-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }

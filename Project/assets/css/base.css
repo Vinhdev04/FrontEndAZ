@@ -44,7 +44,7 @@ li {
 
 .btn:hover {
   color: var(--color-text);
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .active {
