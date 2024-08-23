@@ -412,3 +412,59 @@ a.btn-shop:hover {
   object-fit: cover;
   object-position: center;
 }
+
+/* Section 05 */
+.section-five {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #f0f2f5;
+}
+
+.section-five .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section-five .about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/Project/assets/images/background23.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.section-five .about-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-five .about-left i {
+  color: #fff;
+  font-size: 3rem;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.section-five .about-left .desc {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-five .about-right .btn-contact {
+  margin-right: 10px;
+  background-color: #139f5d;
+  border: 2px solid #139f5d;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.section-five .about-right .btn-contact:hover {
+  border: 2px solid #139f5d;
+  background-color: #ffff;
+  color: #139f5d;
+}
