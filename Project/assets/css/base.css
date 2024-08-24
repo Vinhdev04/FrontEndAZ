@@ -53,6 +53,11 @@ li {
   overflow: hidden;
 }
 
+.active-start {
+  display: block;
+  background-color: var(--color-second);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
