@@ -553,3 +553,58 @@ a.btn-shop:hover {
   cursor: pointer;
   color: var(--color-second);
 }
+
+/* Section 07 */
+.section-seven {
+  background: #f0f2f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.block-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-seven .title {
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: var(--color-first);
+}
+
+.form-controls .input-data {
+  display: block;
+  width: 100%;
+  min-width: 500px;
+  padding: 0.5rem 1.5rem;
+  height: 51px;
+  background-color: #ffffff;
+  /* border-color: #f0f2f5; */
+  color: #103178;
+  border-radius: 30px;
+  transition: 0.4s;
+  border: none;
+  outline: none;
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.block-content .btn-sub {
+  background-color: var(--color-second);
+  color: #ffff;
+  border: 2px solid var(--color-second);
+}
+
+.block-content .btn-sub:hover {
+  background-color: transparent;
+  color: var(--color-second);
+}
