@@ -608,3 +608,83 @@ a.btn-shop:hover {
   background-color: transparent;
   color: var(--color-second);
 }
+
+/* Section 08 */
+.section-eight {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background: #96adcf;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.icon__quote {
+  font-size: 6rem;
+  color: var(--color-second);
+}
+
+.feedback-title {
+  font-size: 5rem;
+  color: var(--color-first);
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.wrapper__feedback {
+  transition: all 0.5s;
+}
+
+.feedback-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 1rem;
+  gap: 2rem;
+  transition: 0.5s;
+}
+
+.block-comment {
+  background: #fff;
+  padding: 3rem;
+  border-radius: 10px;
+  will-change: transform;
+  transition: transform 0.5s ease;
+}
+
+.block-comment .desc {
+  max-width: 250px;
+  height: 150px;
+  color: var(--color-text);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+}
+
+.block-comment .title-name {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: var(--color-first);
+  font-weight: bold;
+}
+
+.block-comment .item__start {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.block-comment:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  border: 2px solid var(--color-second);
+}
