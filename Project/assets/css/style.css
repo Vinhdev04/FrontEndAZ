@@ -49,9 +49,10 @@
 }
 
 .inner-menu ul li a {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--color-first);
   transition: 0.5s all ease;
+  font-weight: bold;
 }
 
 .inner-contact {
