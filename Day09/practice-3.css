@@ -1,0 +1,94 @@
+.container .row h1.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #000;
+  margin: 50px 0 10px 0;
+  position: relative;
+}
+
+.container .row h1.title::after {
+  display: block;
+  content: "";
+  width: 107px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #e8e6e6;
+  margin-top: 5px;
+}
+
+.container .row h1.title::before {
+  display: block;
+  content: "";
+  width: 45px;
+  height: 3px;
+  border-radius: 10px;
+  background-color: green;
+  position: absolute;
+  top: 113%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container .row p.desc {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #aeaeae;
+  margin-bottom: 50px;
+}
+
+.content {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  padding: 30px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.content i {
+  font-size: 1.6rem;
+  color: green;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.content h4.title {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.content p.sub__desc {
+  font-size: 1rem;
+  color: #212020;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .content {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 250px;
+    height: 250px;
+    padding: 40px 35px;
+    margin-left: 50px;
+  }
+}
