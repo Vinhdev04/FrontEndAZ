@@ -1,0 +1,55 @@
+.container .row .col-xl-3 .icon-laptop {
+  color: #5cb874;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.container .row .col-xl-3 .title {
+  font-size: 2rem;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container .row {
+  margin-top: 50px;
+  transition: 0.5s;
+}
+
+.container .row .col-xl-3 .desc {
+  font-size: 1rem;
+  color: #534f4f;
+  margin-bottom: 40px;
+}
+
+.col-xl-3 {
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid #eaeaea;
+}
+
+.col-xl-3:hover {
+  /* animation: move 0.5s ease-in; */
+  transform: translateY(-20px);
+  cursor: pointer;
+  border: 2px solid yellow;
+}
+
+.col-xl-3:active {
+  border: 2px solid rgb(255, 51, 0);
+}
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  75% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
