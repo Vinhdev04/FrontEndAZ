@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .row .inner-main {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container .row .inner-header {
+  text-align: center;
+  background: linear-gradient(-30deg, #f57f20, #d62b08 100%);
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container .row .inner-header h3.title {
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+}
+
+.container .row .inner-header p.desc {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+}
+
+.container .row .inner-body {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.btn-send {
+  padding: 10px 30px;
+  border-radius: 45px;
+  text-align: center;
+  background: linear-gradient(-30deg, #f57f20, #d62b08 100%);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  margin-top: 20px;
+}
+
+.container .inner-body .row .col-xl-12:nth-child(4) {
+  text-align: center;
+}
