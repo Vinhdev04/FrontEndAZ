@@ -1,0 +1,30 @@
+.section-1 {
+  margin-top: 100px;
+}
+
+.section-1 .inner-main {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.section-1 .inner-main .inner-header {
+  background: linear-gradient(-30deg, #f57f20, #d62b08 100%);
+  padding: 10px;
+}
+
+.section-1 .inner-main .inner-header h3.title {
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 32px;
+}
+
+.section-1 .inner-main .inner-body {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.section-1 .collapsed {
+  /* border: 0; */
+}
