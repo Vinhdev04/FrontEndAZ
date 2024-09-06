@@ -2,12 +2,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column-reverse;
   height: 100vh;
 }
 
 .container .row .inner-main {
   border-radius: 10px;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .container .row .inner-header {

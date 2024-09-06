@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .inner-main .row .col-xl-12:last-child {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container .inner-main {
+  border: 1px solid #ddd;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.container .inner-main .row .col-xl-12 .btn-sub {
+  padding: 10px 30px;
+  border-radius: 45px;
+  border: none;
+  color: #fff;
+  background-color: rgb(49, 146, 49);
+  font-size: 20px;
+  font-weight: 500;
+}
