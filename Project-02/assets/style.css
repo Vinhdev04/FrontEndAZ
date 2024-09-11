@@ -7,9 +7,9 @@ body {
   box-shadow: var(--box-shadow);
   background: var(--background-one);
   padding: 0 4rem;
-  position: fixed;
+  /* position: fixed;
   left: 0;
-  right: 0;
+  right: 0; */
 }
 
 .header .inner-wrap {
@@ -131,4 +131,83 @@ body {
   font-size: 2.6rem;
   color: var(--text-color);
   font-weight: bold;
+}
+
+/* ---------  Section 01 --------- */
+.section-one {
+  padding: 180px 0;
+  background-image: url(../assets/img/bg-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section-one .inner-wrap .inner-sub,
+.section-one .inner-wrap .inner-title,
+.section-one .inner-wrap .inner-desc {
+  color: #fff;
+}
+
+.section-one .inner-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.section-one::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.section-one .inner-wrap .inner-sub {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-one .inner-wrap .inner-title {
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+
+.section-one .inner-wrap .inner-desc {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  color: #d3cece;
+}
+
+.section-one .inner-wrap .inner-controls .btn-srv {
+  background: var(--color-two);
+  color: (--text-color);
+  font-weight: 600;
+  font-size: 1.4rem;
+  border-color: var(--color-two);
+}
+
+.section-one .btns {
+  margin-right: 1rem;
+}
+.section-one .inner-wrap .inner-controls .btn-srv:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+.section-one .inner-wrap .inner-controls .btn-mr-outline {
+  background: transparent;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-color: #aeaeae;
+}
+.section-one .inner-wrap .inner-controls .btn-mr-outline:hover {
+  background-color: var(--color-two);
+  border-color: var(--color-two);
+  color: var(--text-color);
 }
