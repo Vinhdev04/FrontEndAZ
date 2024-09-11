@@ -211,3 +211,104 @@ body {
   border-color: var(--color-two);
   color: var(--text-color);
 }
+
+/* ---------  Section 02 --------- */
+.section-two {
+  padding: 8rem 0 5rem;
+  background: var(--background-two);
+}
+
+.section-two .inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.section-two .inner-wrap .inner-block {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.section-two .inner-wrap .inner-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.section-two .inner-wrap .inner-media {
+  flex: 1;
+}
+
+.section-two .inner-wrap .inner-media .sub {
+  font-size: 2rem;
+  /* margin-bottom: 2rem; */
+  color: var(--desc-color);
+  font-weight: 900;
+}
+
+.section-two .inner-wrap .inner-media .title {
+  font-size: 6rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.section-two .inner-wrap .inner-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  /* flex-wrap: wrap; */
+}
+
+.section-two .inner-wrap .inner-list .inner-items {
+  background: #ffffff;
+  border-radius: 10px;
+  margin-right: 1.5rem;
+  display: flex;
+  width: 150px;
+  padding: 4rem 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  margin-bottom: 2rem;
+}
+
+.section-two .inner-wrap .inner-list .inner-items i {
+  color: var(--color-one);
+  font-weight: bold;
+  font-size: 3.2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.section-two .inner-wrap .inner-list .inner-items span {
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.section-two .inner-wrap .inner-desc {
+  font-size: 1.8rem;
+  color: var(--desc-color);
+  margin: 2rem 0;
+}
+
+.section-two .inner-wrap .btn-read {
+  background: var(--color-two);
+  border: none;
+  color: var(--text-color);
+  transition: 0.2s;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.section-two .inner-wrap .btn-read:hover {
+  background: #fff;
+}
