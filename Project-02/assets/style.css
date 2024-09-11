@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+  height: 10200px;
+}
+
+.header {
+  background: #fff;
+}
+
+.header .inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
