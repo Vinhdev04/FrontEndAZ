@@ -58,6 +58,13 @@
   .section-three .inner-content .title {
     font-size: 3rem;
   }
+
+  .section-six .inner-wrap .inner-block {
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -139,5 +146,22 @@
 
   .section-three .inner-image {
     width: 90%;
+  }
+
+  .section-six .inner-wrap .inner-block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section-six .inner-wrap .inner-block .inner-content .title {
+    font-size: 2.2rem;
+  }
+
+  .section-six .inner-wrap .row-p {
+    padding: 0;
+  }
+
+  .section-six .inner-wrap .inner-block .inner-item .wrap-item span {
+    margin-left: 1rem;
   }
 }
