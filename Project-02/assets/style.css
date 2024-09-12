@@ -587,3 +587,98 @@ body {
   color: var(--desc-color);
   margin-right: -20px;
 }
+
+/* ---------  Section 07 --------- */
+.section-seven {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #efefef;
+}
+
+.section-seven .inner-wrap .row .col-12 .desc {
+  font-size: 1.8rem;
+  color: var(--desc-color);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.section-seven .inner-wrap .row .col-12 .title {
+  font-size: 5rem;
+  color: var(--text-color);
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2rem;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-image img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.section-seven .inner-wrap .row .inner-card {
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-content {
+  margin-bottom: 3rem;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-content .name {
+  color: var(--text-color);
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-content .desc {
+  font-size: 2rem;
+  color: var(--desc-color);
+  font-weight: 500;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-socials {
+  display: flex;
+  align-items: center;
+  padding: 1.4rem 2.2rem;
+  border-radius: 10px;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-socials .inner-icon {
+  /* border: 1px solid red; */
+  margin-right: 2rem;
+  background: #efefef;
+  padding: 0.4rem 0.6rem;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-socials a {
+  color: var(--text-color);
+}
+
+.section-seven .inner-wrap .row .inner-card .inner-socials a i {
+  /* margin-right: 2rem; */
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.8rem 0.6rem;
+}
