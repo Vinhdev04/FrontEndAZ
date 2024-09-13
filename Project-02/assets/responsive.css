@@ -65,6 +65,14 @@
     flex-direction: column;
     gap: 3rem;
   }
+
+  .section-eight .inner-wrap .row .inner-content {
+    text-align: center;
+  }
+
+  .section-eight .inner-wrap .row .inner-content .title {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -163,5 +171,17 @@
 
   .section-six .inner-wrap .inner-block .inner-item .wrap-item span {
     margin-left: 1rem;
+  }
+
+  .section-eight .inner-wrap .row .inner-content {
+    text-align: center;
+  }
+
+  .section-eight .inner-wrap .row .inner-content .control .btn-p {
+    margin-top: 2rem;
+  }
+
+  .section-eight .inner-wrap .row .inner-content .title {
+    margin-bottom: 2rem;
   }
 }

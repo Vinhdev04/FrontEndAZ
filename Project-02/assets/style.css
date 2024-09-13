@@ -682,3 +682,64 @@ body {
   font-weight: bold;
   padding: 0.8rem 0.6rem;
 }
+
+.section-eight {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: #efefef;
+}
+
+.section-eight .inner-wrap .row .col-lg-12 img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section-eight .inner-wrap .row .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+  background: #fff;
+  width: 90%;
+  margin: auto;
+  z-index: 6;
+  margin-top: -4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.section-eight .inner-wrap .row .inner-content .sub-title {
+  font-size: 1.8rem;
+  color: var(--desc-color);
+  font-weight: 400;
+}
+
+.section-eight .inner-wrap .row .inner-content .title {
+  font-size: 2.2rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.section-eight .inner-wrap .row .inner-content .control .btn-p {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.4s;
+  border: 2px solid #fff;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+}
+
+.section-eight .inner-wrap .row .inner-content .control .btn-p:hover {
+  opacity: 0.8;
+  border: none;
+}
