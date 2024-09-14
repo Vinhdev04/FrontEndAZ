@@ -73,6 +73,15 @@
   .section-eight .inner-wrap .row .inner-content .title {
     margin-bottom: 2rem;
   }
+
+  .section-ten .inner-wrap {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section-ten .inner-wrap .form-container input {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -183,5 +192,19 @@
 
   .section-eight .inner-wrap .row .inner-content .title {
     margin-bottom: 2rem;
+  }
+
+  .section-ten .inner-wrap {
+    padding: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .section-ten .inner-wrap .form-container input {
+    width: 100%;
+  }
+
+  .section-ten .inner-wrap .inner-btn {
+    text-align: center;
   }
 }
