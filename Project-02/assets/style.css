@@ -1,5 +1,5 @@
 body {
-  height: 10200px;
+  /* height: 10200px; */
 }
 
 /* ---------  Header --------- */
@@ -883,4 +883,33 @@ body {
   color: #000;
   border-color: transparent;
   font-weight: bold;
+}
+
+.footer {
+  /* padding: 5rem; */
+  /* background: rebeccapurple; */
+}
+
+.footer div {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.footer .footer-author {
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  background-color: #14191e;
+  overflow: hidden;
+  text-align: center;
+  color: var(--desc-color);
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+
+.footer .footer-author .desc a {
+  font-weight: 500;
+  color: #fff;
+  text-decoration: underline;
 }
