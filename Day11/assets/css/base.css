@@ -39,3 +39,16 @@ body {
 .center {
   text-align: center;
 }
+
+a,
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-text);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
