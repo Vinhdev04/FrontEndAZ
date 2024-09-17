@@ -12,30 +12,56 @@
   .header .inner-wrap .inner-menu .menu-bar {
     display: block;
   }
+
+  /* ---------- Banner ---------- */
+  .banner .inner-wrap .inner-title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 4rem;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 1.2px;
+  }
+
+  .banner .inner-wrap .desc {
+    font-size: 1.2rem;
+  }
+
+  .banner .inner-wrap {
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
+  /* ---------- Header ---------- */
   .header .inner-wrap .inner-content {
     display: none;
   }
+
   .header .inner-wrap .inner-menu .menu-bar {
     display: block;
   }
 }
 
 @media (max-width: 998px) {
+  /* ---------- Header ---------- */
   .header .inner-wrap .inner-content {
     display: none;
   }
+
   .header .inner-wrap .inner-menu .menu-bar {
     display: block;
   }
+
+  /* ---------- Banner ---------- */
 }
 
 @media (max-width: 1200px) {
+  /* ---------- Header ---------- */
   .header .inner-wrap .inner-content {
     display: none;
   }
+
   .header .inner-wrap .inner-menu .menu-bar {
     display: block;
   }
