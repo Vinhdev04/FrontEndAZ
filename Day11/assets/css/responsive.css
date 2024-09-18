@@ -35,6 +35,20 @@
   .banner-content {
     margin-top: -15rem;
   }
+
+  /* ---------- Blog Media ---------- */
+  .blog-media .inner-blog {
+    margin-bottom: 3rem;
+  }
+
+  .blog-media .inner-media {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .blog-media .inner-media .inner-desc {
+    text-align: justify;
+  }
 }
 @media (max-width: 768px) {
   /* ---------- Header ---------- */
