@@ -253,8 +253,7 @@
 }
 
 .work-process .row .inner-box:hover {
-  transform: translateY(-10px);
-  border: 1px solid blue;
+  margin-top: -1rem;
 }
 
 .work-process .row .inner-box i {
@@ -290,6 +289,7 @@
   position: relative;
   padding-top: 90px;
   padding-bottom: 90px;
+  transition: 0.4s all;
 }
 
 .work::before {
@@ -305,4 +305,96 @@
   z-index: 2;
   top: -20%;
   left: -20%;
+}
+
+/* ---------- About ---------- */
+.about {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.about .inner-wrap .info {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.about .inner-wrap .info .title {
+  font-size: 2.8rem;
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about .inner-wrap .info .desc {
+  font-size: 1.6rem;
+  color: var(--color-desc);
+}
+
+.about .inner-wrap .about-box {
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+.about .inner-wrap .about-box .about-icon i {
+  display: block;
+  margin-left: 2.5rem;
+  font-size: 30px;
+  color: #4e47de;
+  padding: 1rem;
+  text-align: center;
+}
+
+.about .inner-wrap .about-box .desc {
+  font-size: 1.5rem;
+  color: var(--color-desc);
+  letter-spacing: 0.25px;
+  line-height: 26px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.about .inner-wrap .about-box .card-box {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.about .inner-wrap .about-box .card-box .card-image img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.about .inner-wrap .about-box .card-box .card-info {
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  margin-left: 2.5rem;
+  transition: 0.2s all;
+}
+
+.about .inner-wrap .about-box .card-box .card-info .card-name {
+  font-size: 1.7rem;
+  color: var(--color-text);
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.about .inner-wrap .about-box .card-box .card-info .card-depart {
+  font-size: 1.5rem;
+  color: #ff589e;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+}
+
+.about .inner-wrap .about-box:hover .card-info {
+  margin-left: 3rem;
 }
