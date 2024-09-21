@@ -499,3 +499,69 @@
   background: #ff589e;
   color: #fff;
 }
+
+/* ---------- Blog Entries ---------- */
+.blog-entries {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.blog-entries .info {
+  text-align: center;
+}
+
+.blog-entries .info .title {
+  font-size: 2.8rem;
+  color: var(--color-text);
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.blog-entries .info .desc {
+  color: var(--color-desc);
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.blog-entries .row .inner-wrap {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.blog-entries .row .inner-wrap .inner-img {
+  height: 20rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.blog-entries .row .inner-wrap .inner-content {
+  margin-top: -3rem;
+  padding-top: 5rem;
+}
+
+.blog-entries .row .inner-wrap .inner-content .title {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+
+.blog-entries .row .inner-wrap .inner-content .desc {
+  font-size: 1.4rem;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #777;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  height: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog-entries .row .inner-wrap .btn--more {
+  outline: none;
+  border: none;
+}
