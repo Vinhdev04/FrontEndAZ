@@ -49,6 +49,16 @@
   .blog-media .inner-media .inner-desc {
     text-align: justify;
   }
+
+  /* ---------- Contact ---------- */
+  .contact .contact-form {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .contact .contact-wrap {
+    margin-left: 1rem;
+  }
 }
 @media (max-width: 768px) {
   /* ---------- Header ---------- */
@@ -71,7 +81,10 @@
     display: block;
   }
 
-  /* ---------- Banner ---------- */
+  /* ---------- Contact ---------- */
+  .contact .row .contact-info p {
+    max-width: unset;
+  }
 }
 
 @media (max-width: 1200px) {

@@ -12,9 +12,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.5rem 3rem;
+  padding: 2rem 2rem;
   border-radius: 45px;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
   background: #fff;
 }
 
@@ -564,4 +564,102 @@
 .blog-entries .row .inner-wrap .btn--more {
   outline: none;
   border: none;
+  background: #8261ee;
+}
+
+.blog-entries .row .inner-wrap .btn--more:hover {
+  background: #ff589e;
+}
+/* ---------- Contact ---------- */
+.contact {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background: #f2f2fe;
+}
+
+.contact .row h3.title {
+  font-size: 2.8rem;
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+}
+
+.contact .row p.desc {
+  font-size: 1.4rem;
+  color: #777;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  margin-bottom: 2rem;
+  height: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact .row h5.title {
+  font-size: 1.8rem;
+  color: #1e1e1e;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+}
+
+.contact .row .contact-info {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #6f8ba4;
+  letter-spacing: 0.6px;
+  line-height: 26px;
+}
+
+.contact .row .contact-info p {
+  margin-bottom: 2rem;
+  height: 5rem;
+  max-width: 30rem;
+  overflow: hidden;
+}
+
+.contact .contact-form {
+  /* margin-left: 3rem; */
+}
+
+.contact .contact-form input {
+  color: #777;
+  font-size: 1.4rem;
+  border: 1px solid #eee;
+  width: 100%;
+  height: 5rem;
+  outline: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 3rem;
+}
+
+.contact .contact-form textarea {
+  height: 15rem;
+  resize: none;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.contact .contact-form textarea::placeholder {
+  font-size: 1.4rem;
+}
+
+.contact .contact-form button.btn-primary {
+  border: none;
+  outline: none;
+  background: #8261ee;
+}
+
+.contact .contact-form button.btn-primary:hover {
+  background: #ff589e;
 }
